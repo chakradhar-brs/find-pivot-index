@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(../img/images.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .container {
+    text-align: center;
+    background-color: rgba(245, 245, 220, 0.486);
+    padding: 10px;
+    width: 500px;
+    border-radius: 9px;
+  }
+  
+  input[type="text"],
+  button {
+    margin: 10px;
+    padding: 5px;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  p {
+    margin-top: 20px;
+  }

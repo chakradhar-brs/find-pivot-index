@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pivot Index Calculator</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Pivot Index Calculator</h1>
+      <p>
+        the leftSum is equal to the rightSum, the function sets the text content
+        of an HTML element with the ID result to indicate that a pivot index has
+        been found at the current index.
+      </p>
+      <label for="nums">Enter array of integers (comma-separated):</label>
+      <input type="text" id="nums" placeholder="integers eg:1,7,3,6,5,6" />
+      <button onclick="calculatePivotIndex()">Calculate Pivot Index</button>
+      <p id="result"></p>
+    </div>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
